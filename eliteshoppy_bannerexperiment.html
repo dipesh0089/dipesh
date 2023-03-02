@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bo
+        {
+            
+            height: 300px;
+            width: 600px;
+            margin: 100px;
+            
+        }
+        .a
+        {
+            height: 300px;
+            width: 600px;
+            background: url(https://augustav.com/images/bottom1.jpg);
+            border: 10px solid transparent;
+            
+            text-align: center;
+            line-height: 50px;
+            
+            margin: 100px auto;
+            position: relative;
+            overflow: hidden;
+           
+           
+            z-index: 0;
+            
+        }
+        .effect
+        {
+            height: 300px;
+            width: 600px;
+            background: url(https://augustav.com/images/bottom1.jpg);
+            background-size: 100% 100%;
+            position: absolute;
+            top: 0;
+            left: -5%;
+            z-index: -1;
+            transition: 1s;
+            
+            
+        }
+        .a:hover .effect
+        {
+            left: 0;
+        }
+    </style>
+    
+</head>
+<body>
+    <!-- <div class="bo"> -->
+    <div class="a">
+        hover
+        <div class="effect"></div>
+    </div>
+    <!-- </div> -->
+</body>
+</html>

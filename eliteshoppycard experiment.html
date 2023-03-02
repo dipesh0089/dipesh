@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .product-card
+        {
+            border: 2px solid blue;
+            padding: 30px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .card
+        {
+            height: 350px;
+            width: 250px;
+            background: coral;
+            margin: 20px;
+            position: relative;
+            box-shadow: 0 0 22px black; 
+        }
+        .card .prd-img
+        {
+            height: 250px;
+            width: 250px;
+            background: darkcyan;
+            transform: rotateY(0);
+            transition: 0.5s;
+        }
+        .card .prd-view
+        {
+            height: 50px;
+            width: 250px;
+            background: blueviolet;
+            position: absolute;
+            top: 0;
+            left: 0;
+            text-align: center;
+            line-height: 50px; 
+            /* display: none; */
+            opacity: 0;
+            transition: 1s;
+        }
+        .card .prd-info
+        {
+            height: 100px;
+            width: 250px;
+            background: darkgray;
+        }
+        .card .prd-info .prd-name
+        {
+            height: 20px;
+            background: yellow;
+            text-align: center;
+            line-height: 20px;
+        }
+        .card .prd-info .prd-price
+        {
+            height: 20px;
+            background: red;
+            text-align: center;
+            line-height: 20px;
+           
+        }
+        .card .prd-info .prd-blank
+        {
+            height: 20px;
+            background: wheat;
+        }
+        .card .prd-info .addtocart
+        {
+            height: 20px;
+            width: 200px;
+            background: red ;
+            text-align: center;
+            line-height: 20px;
+            margin: 0 25px 0 25px;
+        }
+       
+
+
+
+
+       
+        .prd-img:hover .prd-view
+        {
+            top: 200px;
+            /* display: block; */
+            opacity: 1;
+        }
+        .card .prd-view:hover
+        {
+            background: coral;
+        }
+        .card .prd-img:hover
+        {
+            transform: rotateY(-90deg);
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="product-card">
+    <!--product card start-->
+    <div class="card">
+        <div class="prd-img">
+            <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" alt="" height="100%" width="100%">
+            <div class="prd-view">Quickview</div>
+        </div>
+        <div class="prd-info">
+            <div class="prd-name">
+                Formal Blue Shirt
+            </div>
+            <div class="prd-price">$45.99 <strike>$69.71</strike></div>
+            <div class="prd-blank"></div>
+            <div class="addtocart">ADD TO CART <div class="effect"></div></div>
+
+        </div>
+    </div>
+    <!--product card end-->
+    
+     <!--product card start-->
+     <div class="card">
+        <div class="prd-img">
+            <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" alt="" height="100%" width="100%">
+            <div class="prd-view">Quickview</div>
+        </div>
+        <div class="prd-info">infor</div>
+    </div>
+    <!--product card end-->
+
+     <!--product card start-->
+     <div class="card">
+        <div class="prd-img">
+            <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" alt="" height="100%" width="100%">
+            <div class="prd-view">Quickview</div>
+        </div>
+        <div class="prd-info">infor</div>
+    </div>
+    <!--product card end-->
+
+     <!--product card start-->
+     <div class="card">
+        <div class="prd-img">
+            <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" alt="" height="100%" width="100%">
+            <div class="prd-view">Quickview</div>
+        </div>
+        <div class="prd-info">infor</div>
+    </div>
+    <!--product card end-->
+
+     <!--product card start-->
+     <div class="card">
+        <div class="prd-img">
+            <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" alt="" height="100%" width="100%">
+            <div class="prd-view">Quickview</div>
+        </div>
+        <div class="prd-info">infor</div>
+    </div>
+    <!--product card end-->
+
+     <!--product card start-->
+     <div class="card">
+        <div class="prd-img">
+            <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" alt="" height="100%" width="100%">
+            <div class="prd-view">Quickview</div>
+        </div>
+        <div class="prd-info">infor</div>
+    </div>
+    <!--product card end-->
+
+     <!--product card start-->
+     <div class="card">
+        <div class="prd-img">
+            <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" alt="" height="100%" width="100%">
+            <div class="prd-view">Quickview</div>
+        </div>
+        <div class="prd-info">infor</div>
+    </div>
+    <!--product card end-->
+
+     <!--product card start-->
+     <div class="card">
+        <div class="prd-img">
+            <img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/m1.jpg" alt="" height="100%" width="100%">
+            <div class="prd-view">Quickview</div>
+        </div>
+        <div class="prd-info">infor</div>
+    </div>
+    <!--product card end-->
+</div>
+</body>
+</html>
